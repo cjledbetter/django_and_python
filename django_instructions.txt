@@ -1,0 +1,74 @@
+DJANGO SET-UP
+sudo apt-get install python-setuptools [initial linux set-up with setuptools]
+
+sudo easy_install virtualenv [install virtual environment]
+
+ virtualenv --no-site-packages django-make [create virtual env file with flag to not install any packages in venv that is already on root system]
+
+source django-make/bin/activate [activate virtual env file]
+
+cd django-make [cd into venv file]
+
+easy_install django [use easy_install (like pip) to install django]
+
+django-admin [shows all commands available]
+
+django-admin.py startproject django_test [use command startproject to create file]
+
+cd django_test [cd into file]
+
+python manage.py runserver [run server]
+
+deactivate [deactivate and get out of venv]
+
+MIGRATIONS
+
+virtualenv --no-site-packages migration
+
+source migration/bin/activate
+
+cd migration
+
+pip install django
+
+django-admin.py startproject new_migrations
+
+cd new_migrations
+
+chmod +x manage.py [adding executable permissions to manage script - a little easier to use]
+
+./manage.py startapp articles
+
+./manage.py
+
+settings.py [link app in settings - django framework knows this exists and
+when start running migration commands, it knows where to find it]
+INSTALLED_APPS (
+    ...
+    'articles',
+)
+*************************
+models.py
+class Article(models.Model):
+    title = models.CharField(max_length=200)
+    body = models.TextField()
+./manage.py makemigrations articles [makes first migrations file 0001_initial.py (basic Articles model created)]
+
+./manage.py migrate [initial migration to sql database - creates db, associated
+files and migrates the models to the db that creates tables]
+
+models.py
+class Article...
+    likes = models.IntegerField(default=0) [added likes to models]
+
+./manage.py makemigrations articles
+
+./manage.py migrate [2nd migration - 002_....py]
+
+class Comment(models.Model):
+    article = models.ForeignKey(Article)
+    text = models.TextField()
+
+./manage.py makemigrations articles [3rd migration - 003_....py]
+
+./manage.py migrate
