@@ -72,3 +72,5 @@ class Comment(models.Model):
 ./manage.py makemigrations articles [3rd migration - 003_....py]
 
 ./manage.py migrate
+
+VIEWS
