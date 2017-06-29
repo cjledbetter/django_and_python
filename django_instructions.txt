@@ -82,4 +82,4 @@ def hello(request):
 	name = "Chris"
 	html = "<html><body>Hi %s, this seemed to have worked!</body></html>" % name
 	return HttpResponse(html)
-
+cd
