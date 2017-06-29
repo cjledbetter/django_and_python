@@ -74,3 +74,12 @@ class Comment(models.Model):
 ./manage.py migrate
 
 VIEWS
+
+views.py [added this html link]
+from django.http import HttpResponse
+
+def hello(request):
+	name = "Chris"
+	html = "<html><body>Hi %s, this seemed to have worked!</body></html>" % name
+	return HttpResponse(html)
+
