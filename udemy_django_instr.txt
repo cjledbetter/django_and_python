@@ -1,0 +1,12 @@
+***Udemy Django Set-up***
+mkdir trydjango19
+cd trydjango19
+virtualenv . 
+source bin/activate
+pip install django==1.9
+django.py startproject trydjango19
+cd trydjango19
+python manage.py runserver
+django-admin.py startproject trydjango19
+cd trydjango19
+python manage.py runserver
