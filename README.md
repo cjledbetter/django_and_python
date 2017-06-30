@@ -16,3 +16,5 @@ this material
 #### _Quick Links_
 
 + [Think Python: How to Think Like a Computer Scientist](http://greenteapress.com/thinkpython/html/index.html "Think Python")
+
++ [Berkley Python: CS61A](https://inst.eecs.berkeley.edu/~cs61a/su13/lab/lab00/lab00.php#6 "CS61A")
