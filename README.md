@@ -22,5 +22,5 @@ this material
 
 + [Mike's Django Tutorial](https://www.mikesdjangotutorials.co.uk/ "Django Tutorial")
 
-+ [DjangoProject Tutorial](https://docs.djangoproject.com/en/1.11/intro/install/ "\
++ [DjangoProject Tutorial](https://docs.djangoproject.com/en/1.11/contents/ "\
 DjangoProject Tutorial")
