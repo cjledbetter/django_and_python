@@ -1,4 +1,5 @@
-# django_and_python
++ [Mike's Django Tutorial](https://www.mikesdjangotutorials.co.uk/ "\
+Django Tutorial")# django_and_python
 ### **Django and Python Study Space**
 
 ##     _Focus_
@@ -20,3 +21,6 @@ this material
 + [Berkley Python: CS61A](https://inst.eecs.berkeley.edu/~cs61a/su13/lab/lab00/lab00.php#6 "CS61A")
 
 + [Mike's Django Tutorial](https://www.mikesdjangotutorials.co.uk/ "Django Tutorial")
+
++ [DjangoProject Tutorial](https://docs.djangoproject.com/en/1.11/intro/install/ "\
+DjangoProject Tutorial")
