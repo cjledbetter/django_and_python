@@ -26,3 +26,6 @@ this material
 
 + [DjangoProject Tutorial](https://docs.djangoproject.com/en/1.11/contents/ "\
 DjangoProject Tutorial")
+
++ [The Django Book](http://djangobook.com/ "\
+The Django Book")
