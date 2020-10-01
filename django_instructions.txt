@@ -1,4 +1,4 @@
-DJANGO SET-UP
+DJANGO SET-UP Insctuctions
 sudo apt-get install python-setuptools [initial linux set-up with setuptools]
 
 sudo easy_install virtualenv [install virtual environment]
